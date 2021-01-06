@@ -20,31 +20,22 @@ header {
 .nav a {
 	margin: 0 5px;
 }
-/*.nav a:hover {
-	background:  black;
-	color: white;
-	transition: 0.3s;
-}*/
 .donasi { 
 	background-color:#363945;
 	color: white;
 	
 }
-/*.donasi a:hover {
-	color: #577284;
-	transition: 0.3s;
-}*/
 
 /* Footer */
 footer {
 	background-color: black;
 	color: white;
 	font-family: 'EB Garamond';
-	padding: 70px 70px 70px 100px;
+	padding: 30px 30px 30px 100px;
 	margin-top: 150px;
 }
 h2 {
-	font-size: 40px;
+	font-size: 30px;
 	font-family: 'Lora';
 	margin-bottom: 20px;
 }
@@ -97,10 +88,6 @@ h2 {
 	position: relative;
 }
 #vertical-center {
-/*	position: absolute;
-  	top: 50%;
-  	-ms-transform: translateY(-50%);
-  	transform: translateY(-50%);*/
   	margin-top: 100px;
 }
 .vertical-center a:hover {
@@ -118,7 +105,6 @@ h2 {
 	margin-bottom: 80px;
 }
 #kumpulanfoto {
-	/*background-color: white;*/
 	margin-bottom: 100px;
 }
 #aus2 {
@@ -222,6 +208,38 @@ h2 {
 	font-weight: 600;
 }
 
+/* How You Can Help */
+#hych {
+	color: black;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+.hych2 {
+	font-size: 50px;
+	margin-bottom: 70px;
+	margin-top: 50px;
+	border-bottom: 2px solid #a4a6a8;
+	padding-bottom: 150px;
+}
+.hych3 {
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#hych4 h2 {
+	font-size: 25px;
+}
+.hych5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#mountain {
+	width: 25%;
+}
+
 /* Donate */
 .headerfoto {
 	background-image: url(dolphin3.jpg);
@@ -245,10 +263,17 @@ h2 {
         transition-duration: 800ms;
         box-shadow: rgb(90, 96, 114) 0px 2px 8px;
     }
-
 }
 
 @media screen and (max-width: 767px) {
+	.hych5 {
+    	flex-direction: column;
+    }
+
+    #mountain {
+    	width: 90%;
+    }
+
 	.vertical-center {
 		text-align: center;
 		margin-top: -50px;
